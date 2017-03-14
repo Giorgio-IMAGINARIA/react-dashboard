@@ -1,0 +1,57 @@
+#pageToRender {
+    height: inherit;
+}
+
+.jsonKeyStyle {
+    color: #e06c75;
+}
+
+.jsonNumberStyle {
+    color: #61afef;
+}
+
+.jsonStringStyle {
+    color: #98c379;
+}
+
+.jsonBooleanStyle {
+    color: #c678dd;
+}
+
+.jsonNullStyle {
+    color: #d19a66;
+}
+
+#mainNav a {
+    height: inherit;
+    text-decoration: none;
+}
+
+#mainNav a>button {
+    background-color: #1D212A;
+    margin: 0px;
+}
+
+#mainNav a>button>p {
+    color: #8f9498;
+}
+
+#mainNav a>button:focus {
+    outline: none;
+}
+
+#mainNav a>button:hover {
+    background-color: #323d45;
+}
+
+#mainNav a>button:hover>p {
+    color: #fff;
+}
+
+#mainNav>a.activeNavLink>button {
+    background-color: #cecece;
+}
+
+#mainNav>a.activeNavLink>button>p{
+    color: #323d45;
+}
