@@ -48,7 +48,7 @@ var App = React.createClass({
                 }}/>
                 <MuiThemeProvider muiTheme={getMuiTheme()}>
                     <div style={appWrap}>
-                        <MainBar/>
+                        <MainBar text={'RTD'}/>
                         <div style={containerStyle}>
                             {this.props.children}
                         </div>

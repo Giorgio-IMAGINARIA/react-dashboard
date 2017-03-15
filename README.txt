@@ -9,7 +9,7 @@ A web application written in React + Flux + ExpressJS
 
 Also,
 
-8) - check the __test__ directories at /source/library/ and /components/
+8) - check the __test__ directories at /source/library/ and /components/ (the latter must be improved)
 7) - run tests with Jest (npm test) 
 
 Live application at (coming soon...)

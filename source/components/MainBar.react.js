@@ -49,8 +49,12 @@ var MainBar = React.createClass({
     onLoginDetailsChange: function() {
         if (StoreLoginDetailsState.getDetails().token) {
             this.setState({
-                navigationBlock: <NavigationBlock/>,
-                loginBlock: <LoginBlock/>
+                // navigationBlock: <NavigationBlock/>,
+                // following only for test (comment above);
+                navigationBlock: NavigationBlock(),
+                // loginBlock: <LoginBlock/>
+                // following only for test (comment above);                
+                loginBlock: LoginBlock()
             });
         } else {
             this.setState({navigationBlock: null, loginBlock: null});
@@ -65,7 +69,7 @@ var MainBar = React.createClass({
                         {'REACT DASHBOARD'}
                     </p>
                     <p style={titleBarStyleSmall}>
-                        {'RTD'}
+                        {this.props.text}
                     </p>
                 </div>
                 {this.state.loginBlock}
