@@ -17,6 +17,7 @@ import RightArrow from 'material-ui/svg-icons/navigation/chevron-right';
 import Snackbar from 'material-ui/Snackbar';
 //Library Components
 var TryToConnect = require('../library/TryToConnect');
+var TweetUtils = require('../library/TweetUtils');
 //Stores
 var StoreLogout = require('../stores/StoreLogout');
 

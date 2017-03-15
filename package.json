@@ -6,7 +6,8 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "webpack-dev-server --inline --content-base ./source/",
-    "start:prod": "webpack && node server.js"
+    "start:prod": "webpack && node server.js",
+    "test": "jest"
   },
   "author": "Giorgio Mazzei",
   "license": "ISC",
@@ -34,6 +35,8 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2",
     "webpack": "^1.13.1"
   }
 }
